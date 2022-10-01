@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* *::before *::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: white;
+}
+body {
+    background-color: #0033ff;
+}
+div {
+    position: absolute;
+}
+.logo {
+    left: 5%;
+    top: 13%;
+}
+.unbounce {
+    font-weight: 800;
+    font-size: 5.8rem;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: 7.5%;
+}
+.bigtext {
+    font-weight: 300;
+    font-size: 7.5rem;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 5%;
+}
+.smalltext {
+    font-weight: 100;
+    font-size: 3.8rem;
+    font-family: 'Barlow' , sans-serif;
+    margin-left: 5%;
+}
+button {
+    color: #0033ff;
+    background-color: white;
+    font-family: 'Barlow' , sans-serif;
+    padding: 40px 50px;
+    border: 1px solid #0033ff;
+    border-radius: 2%;
+    margin-left: 5%;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.greenbox {
+    z-index: 2;
+    height: 25%;
+    width: 20%;
+    background-color: #a7f1ce;
+    right: 23%;
+    top: 0%;
+    box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.281);
+}
+.fadebox {
+    z-index: 1;
+    height: 40%;
+    width: 25%;
+    background-image: linear-gradient(0deg, #e5a2cd 75%, #0033ff);
+    opacity: 0.8;
+    right: 3%;
+    top: 5%;
+}
+.centerbox {
+    z-index: 2;
+    height: 65%;
+    width: 30%;
+    background-color: #4cdaee;
+    right: 6%;
+    bottom: 15%;
+    box-shadow: 5px 10px 15px 10px rgba(0, 0, 0, 0.178);
+    overflow: hidden;
+}
+.pinkbox {
+    z-index: 1;
+    height: 40%;
+    width: 18%;
+    background-image: linear-gradient(0deg, #d079cf, #eb63bb, #fec39b);
+    background-color: #d079cf;
+    right: 30%;
+    bottom: 5%;
+    box-shadow: 5px 10px 15px 10px rgba(0, 0, 0, 0.192);
+}
+.bottomrightbox {
+    z-index: 3;
+    height: 32%;
+    width: 16%;
+    background-color: white;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    box-shadow: 5px 10px 15px 10px rgba(0, 0, 0, 0.116);
+}
+.darkgreen {
+    width: 100%;
+    height: 45%;
+    background-image: url(trees.jpg);
+}
+.white {
+    z-index: 1;
+    width: 100%;
+    height: 22%;
+    margin-top: 69%;
+    background-color: white;
+}
+.purple {
+    width: 90%;
+    height: 150%;
+    background-image: linear-gradient(90deg,#b854d4 5%, #8647c8);
+    background-color: #8647c8;
+    transform: rotate(36deg) translate(-25rem);
+    margin-top: -18%;
+}
+.pink {
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(0deg, #fec39b 55%, #eb63bb);
+    background-color: #d079cf;
+    margin-top: 80%;
+    margin-left: 27%;
+}
